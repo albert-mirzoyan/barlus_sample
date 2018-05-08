@@ -1,0 +1,22 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "private":true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony -r @barlus/bone/register ./packages/server/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/something"
+  },
+  "workspaces":[
+    "packages/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "next"
+  }
+}

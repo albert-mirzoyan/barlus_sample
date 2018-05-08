@@ -1,0 +1,19 @@
+{
+  "name": "@vendor/client",
+  "version": "0.1.1",
+  "description": "Barlus Tar Library",
+  "types": "./index",
+  "license": "MIT",
+  "repository": "https://github.com/ecmal/elp.git",
+  "author": "Mamble LLC",
+  "dependencies": {
+    "@barlus/runtime": "^0.1.1",
+    "@barlus/nerv": "^0.1.1",
+    "@barlus/mobx": "^0.1.1",
+    "@barlus/storex": "^0.1.1",
+    "@barlus/routex": "^0.1.1",
+    "@barlus/history": "^0.1.1",
+    "@barlus/styles": "^0.1.1"
+
+  }
+}
